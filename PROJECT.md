@@ -9,6 +9,9 @@ AI 編輯器 (Antigravity/OpenCode) 新手全能懶人包。
 - [x] 已完成：專案助理三個全域 skill
 - [x] 已完成：Obsidian 知識庫搬遷至三層結構
 - [x] 已完成：已推上 GitHub
+- [x] 已完成：Obsidian Vault 統一至 D:\Obsidian（C→D 搬遷與資料整合）
+- [x] 已完成：MCP 設定路徑修正指向 D:\Obsidian
+- [x] 已完成：技能 11 安裝流程確認（AI 詢問使用者路徑，非硬編碼）
 
 ## 技術
 - OpenCode Skills（SKILL.md）
