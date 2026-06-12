@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>點哥AI全能工具箱 — 免費主機入門</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #0f0f23; color: #e0e0e0; line-height: 1.8; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; padding: 60px 0 40px; }
+        header h1 { font-size: 2.5em; color: #e94560; margin-bottom: 10px; }
+        header .tagline { font-size: 1.1em; color: #8888aa; }
+        .badge { display: inline-block; background: #e94560; color: #fff; padding: 4px 14px; border-radius: 20px; font-size: 0.85em; margin-bottom: 20px; }
+        .section { background: #1a1a35; border-radius: 12px; padding: 30px; margin-bottom: 24px; border: 1px solid #2a2a50; }
+        .section h2 { color: #e94560; margin-bottom: 16px; font-size: 1.4em; }
+        .section h2 .emoji { margin-right: 8px; }
+        .section p { margin-bottom: 12px; }
+        .section ul { padding-left: 20px; margin-bottom: 12px; }
+        .section ul li { margin-bottom: 8px; }
+        .highlight { background: #2a1a30; border-left: 4px solid #e94560; padding: 16px 20px; border-radius: 0 8px 8px 0; margin: 16px 0; }
+        .highlight strong { color: #ff6b81; }
+        .btn { display: inline-block; background: #e94560; color: #fff; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 10px; }
+        .btn:hover { background: #d63850; }
+        .footer { text-align: center; padding: 40px 0; color: #666; font-size: 0.85em; border-top: 1px solid #2a2a50; margin-top: 40px; }
+        a { color: #4fc3f7; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <header>
+        <span class="badge">免費主機範例頁</span>
+        <h1>🧰 點哥AI全能工具箱</h1>
+        <p class="tagline">你的 AI 開發環境 — 一站搞定</p>
+    </header>
+
+    <div class="section">
+        <h2><span class="emoji">📖</span>關於點哥</h2>
+        <p><strong>點哥AI全能工具箱 (ckhotgav-tools)</strong> 是一套專為 AI 編輯器新手設計的全能懶人包。</p>
+        <p>包含 20 項技能，從基礎環境、NotebookLM 知識庫、GitHub 版控、一鍵部署到資料庫串接，讓不會寫程式的你也能靠 AI 做出完整的網站和工具。</p>
+        <p>GitHub 原始碼：<a href="https://github.com/ckhotgav-git/ckhotgav-tools" target="_blank">https://github.com/ckhotgav-git/ckhotgav-tools</a></p>
+        <a class="btn" href="https://github.com/ckhotgav-git/ckhotgav-tools" target="_blank">前往 GitHub</a>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">🏠</span>什麼是網站主機？</h2>
+        <p>網站主機就像在網路上「租一塊地來蓋房子」。</p>
+        <ul>
+            <li><strong>你的電腦</strong>：你寫網頁的地方（別人看不到）</li>
+            <li><strong>主機</strong>：24 小時開著的遠端電腦（全世界都能連）</li>
+            <li>你把網頁檔案放上主機，其他人就能用手機或電腦打開來看</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">📂</span>什麼是 FTP？</h2>
+        <p>FTP 就像網路的「檔案總管」，專門用來把你的電腦檔案傳送到主機上。</p>
+        <ul>
+            <li>你只需要 <strong>FTP 主機、帳號、密碼</strong> 三樣東西</li>
+            <li>推薦使用 <strong>FileZilla</strong>（免費、圖形化、拖拉上傳）</li>
+            <li>進階用戶也可以用指令上傳（curl / ftp-cli）</li>
+        </ul>
+        <p>傳上去之後，全世界都能看到你的網站！</p>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">⚡</span>關於 PHP + MySQL</h2>
+        <p>ProFreeHost 支援 PHP 和 MySQL，可以讓你的網站從「靜態名片」升級為「動態應用」：</p>
+        <ul>
+            <li><strong>PHP</strong>：讓網頁會動的程式語言（像魔術師）</li>
+            <li><strong>MySQL</strong>：存放資料的資料庫（像倉庫）</li>
+            <li>透過 PHP + MySQL，你可以做出留言板、會員系統、文章發佈⋯⋯</li>
+        </ul>
+        <p>想進一步學習？請參考技能 <strong>20-PHP + MySQL 進階</strong>。</p>
+    </div>
+
+    <div class="highlight">
+        <strong>⚠️ 免費主機的重要提醒</strong>
+        <ul style="margin-top:8px;">
+            <li>ProFreeHost 是免費服務，<strong>僅供練習與學習</strong>，不建議用於正式商業網站</li>
+            <li>正式上線需求請自行購買付費虛擬主機（每月約 $3~10 美元），效能與穩定性才有保障</li>
+            <li>若連續 <strong>30 天</strong>沒有任何人瀏覽你的網站，系統會發送警示信件提醒你登入</li>
+            <li>若仍無處理，你的網站與資料庫<strong>將被永久刪除</strong></li>
+            <li>免費主機無技術支援、資源有限，速度與穩定性不如付費主機</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>由 ProFreeHost 免費主機代管</p>
+        <p>本頁面為點哥AI全能工具箱 (ckhotgav-tools) 教學範例</p>
+    </div>
+
+</div>
+</body>
+</html>

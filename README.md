@@ -3,6 +3,16 @@
 > **AI 編輯器 (Antigravity / OpenCode) 新手全能懶人包**
 > 環境設定、NotebookLM、GitHub、Netlify、GAS、資料庫、本地AI、知識管理 一次搞定
 
+**點哥（昇鴻）** 是一位哲學與生命教育背景的程式設計教師、正念催眠培訓師。
+他相信「程式是表達思想的工具」，致力於降低新手的學習門檻，讓完全不會寫程式的人也能透過 AI 實現自己的想法。
+
+這個工具箱彙整了從基礎環境、知識庫到部署上線的完整流程，讓不會寫程式的你也能靠 AI 做出屬於自己的產品。
+
+- GitHub: https://github.com/ckhotgav-git
+- Facebook: https://facebook.com/jshpapa
+- Email: thinkclue@gmail.com
+- 未來腦力研究社: https://think-clue.blogspot.com/
+
 本懶人包幫助**完全不懂程式的新手**，快速在你的 AI 編輯器上建立一套完整的開發環境。
 
 ---
@@ -13,7 +23,7 @@
 
 ---
 
-## 🎯 目前包含的技能 (19 項)
+## 🎯 目前包含的技能 (21 項)
 
 | 編號 | 技能名稱 | 說明 |
 |------|---------|------|
@@ -36,6 +46,8 @@
 | **16** | 疑難排解 | 常見錯誤與解決方法 |
 | **17** | 其他AI編輯器 | Claude Code / Gemini CLI / Codex CLI 設定 |
 | **18** | 其他部署平台 | Vercel / Cloudflare / Railway 設定 |
+| **19** | FTP 免費主機 | 免費架站與 MySQL 資料庫設定 |
+| **20** | PHP + MySQL 進階 | 動態網站資料庫連線 |
 
 ---
 
