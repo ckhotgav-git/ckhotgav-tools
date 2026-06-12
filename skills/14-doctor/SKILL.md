@@ -88,11 +88,10 @@ AI 會幫你整理一份檢查報告：
 
 ### 檢查方式
 
-先確認工具包位置：
-```powershell
-Test-Path "D:\ANTI 課程AI整理區\CKhot懶人包開發\ckhotgav-tools"
-```
-- 如果找不到，問使用者工具包放在哪，或是否要從 GitHub 下載
+先確認工具包位置（自動偵測）：
+1. AI 從自身 SKILL.md 所在目錄（`skills/14-doctor/`）往上兩層即為 repo root
+2. 若無法定位，搜尋檔案系統中含 `.git` 且 remote 為 ckhotgav-tools 的目錄
+3. 若仍找不到，問使用者工具包放在哪，或是否要從 GitHub 下載
 
 ### 技能目錄完整性
 
@@ -135,7 +134,7 @@ git log HEAD..origin/master --oneline
 ### OpenCode 部署檢查
 
 比對技能目錄 vs 編輯器安裝狀態：
-- 檢查 `C:\Users\user\.config\opencode\skills\` 中有哪些技能已部署
+- 檢查 `$env:USERPROFILE\.config\opencode\skills\` 中有哪些技能已部署（Windows）或 `~/.config/opencode/skills/`（Mac/Linux）
 - 列出已安裝 vs 未安裝的技能編號
 
 ## 最終建議
