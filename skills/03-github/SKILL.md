@@ -57,6 +57,29 @@ gh auth status
 ```
 看到「Logged in to github.com」就代表成功了！
 
+## 6. 建立新專案上傳（預設私人）
+
+建立新 GitHub 倉庫時，**一律設為私人**（private），避免 API Key 等機密外洩：
+
+```powershell
+# 在專案資料夾內執行：
+gh repo create 專案名稱 --private --source=. --remote=origin --push
+```
+
+若不小心設成公開，可事後改回：
+```powershell
+gh repo edit 帳號/專案名稱 --visibility private --accept-visibility-change-consequences
+```
+
+## 7. 每次上傳前的安全檢查
+
+```powershell
+# 檢查是否有 API Key 或密碼被誤加進 git
+git diff --cached | Select-String -Pattern "sk-|gsk_|AIza|ghp_|api_key"
+```
+
+如果有出現結果，表示有機密即將被上傳，請先加入 .gitignore 再 commit。
+
 ## ✅ 完成
 
 GitHub 已設定完成！你的程式碼從此有雲端時光機保護了。
